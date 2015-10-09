@@ -1,58 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="HyerTech Website">
+    <meta name="author" content="HyerTech">
 
-    <!-- Description and Author that will show up on search engines' snipets-->
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Icon and text on the tab bar -->
-    <link rel="icon" href="hokie.png">
     <title>HyerTech</title>
 
-    <!-- Bootstrap core CSS (Best not to mess with)-->
-    <link href="bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this page -->
-    <link href="style.css" rel="stylesheet">
-  </head>
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
 
-  <body>
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-    <div class="site-wrapper">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
 
-      <div class="site-wrapper-inner">
+    </head>
 
+    <body>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="resources/logo.png" width="41" height="32" id="header-icon" pagespeed_url_hash="2881235677">
+                    </a>
+                    <a class="navbar-brand" href="index.html">
+                        HyerTech
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="services.html">Services</a>
+                        </li>
+                        <li>
+                            <a href="portfolio-item.html">Our Work</a>
+                        </li>
+                        <li>
+                            <a href="company.html">Company</a>
+                        </li>
+                        <li>
+                            <a href="faq.html">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="404.html">Forum</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                        <li>
+                            <a href="404.html"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <!-- Header Carousel -->
+        <header id="myCarousel" class="carousel slide">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="fill" style="background-image:url('resources/computertopview.jpg');"></div>
+                    <div class="carousel-caption">
+                        <h2>Custom Computers</h2> <br />
+                        <button type="button" class="btn btn-primary btn-block btn-lg">Learn More</button> <br />
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="fill" style="background-image:url('resources/mobiledevelopment.jpg');"></div>
+                    <div class="carousel-caption">
+                        <h2>Custom Mobile and Desktop Apps</h2>
+                        <button type="button" class="btn btn-primary btn-block btn-lg">Learn More</button> <br />
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="fill" style="background-image:url('resources/programming.jpg');"></div>
+                    <div class="carousel-caption">
+                        <h2>Custom Websites</h2>
+                        <button type="button" class="btn btn-primary btn-block btn-lg">Learn More</button> <br />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="icon-prev"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="icon-next"></span>
+            </a>
+        </header>
+
+        <!-- Page Content -->
         <div class="container">
 
-          <div class="top-bar">
-            <h3 class="top-bar-heading">Kevin Hyer</h3>
-            <ul class="nav top-bar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="resume.html">Resume</a></li>
-              <li><a href="http://www.facebook.com/meowmixmix">Contact</a></li>
-            </ul>
-          </div>
+            <!-- Marketing Icons Section -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">
+                        Welcome to HyerTech
+                    </h1>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4><i class="glyphicon glyphicon-gift"></i> CompuCrates</h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>Get the latest PC gadgets and tools to help maintain and spice up the look of your PC.  The true computer hobbyists dream.</p> <br /> <br /> <br />
+                            <a href="services.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4><i class="glyphicon glyphicon-off"></i> Custom Built Pc's</h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>Just enter your budget, a few aesthetic and performance preferences, and you can have the best built PC for your budget deliverd to your door in no time.</p> <br /> <br /> 
+                            <a href="services.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4><i class="glyphicon glyphicon-phone"></i> Custom Apps</h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>Get a custom mobile or desktop app at the highest quality for the lowest price.  Our dedicated team of passionate programmers will create you something unique and keep you informed every step of the way.</p> 
+                            <br />
+                            <a href="services.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4><i class="glyphicon glyphicon-cloud-upload"></i> Custom Websites</h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>Have the website of your dreams in no time. We handle all the work load that comes with a website such as the creation, setup, and hosting.  Hassle free</p> <br /> <br /> 
+                            <a href="services.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
 
-          <div class="cover">
-            <h1 class="cover-heading">Kevin Hyer</h1>
-            <p class="lead">My name is Kevin Hyer and I am a student at Virginia Tech.  I am a Business Information Technology major and a
-							computer science minor. I'm a nerd Russian, we have an animal called a MOOOOOOOOOOOSE</p>
-							
-			<button type="button" class="btn btn-default btn-lg">
-				<span href="mailto:kthyer@vt.edu" class="glyphicon glyphicon-envelope"></span> Email
-			</button>
-            <p class="lead">
-              <a href="mailto:kthyer@vt.edu" class="btn btn-lg btn-default">Email</a>
-            </p>
-          </div>
+            <!-- Features Section -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="page-header">About Us</h2>
+                </div>
+                <div class="col-md-6">
+                    <p>At HyerTech, we love all things technology...Our mission is to bring our love of technology to our clients.  Our dedicated team keeps up with the latest technological trends for computers, mobile applications, websites, and much more! We have a diverse team from parts all over the country. We want to share our love of technology with you and I hope you will join us in our journey!</p>
+                    <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+                    <a href="company.html" class="btn btn-primary btn-block btn-lg">Learn More</a>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive" src="resources/team.jpg" alt="">
+                </div>
+            </div>
 
+            <!-- Portfolio Section -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="page-header">Our Work</h2>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="ourwork.html">
+                        <h3 class="text-center">Past CompuCrates</h3>
+                        <img class="img-responsive img-portfolio img-hover" src="resources/Truck.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="ourwork.html">
+                        <h3 class="text-center">Past Computers</h3>
+                        <img class="img-responsive img-portfolio img-hover" src="resources/Computer.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="ourwork.html">
+                        <h3 class="text-center">Past Apps</h3>
+                        <img class="img-responsive img-portfolio img-hover" src="resources/Phone.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="ourwork.html">
+                        <h3 class="text-center">Past Websites</h3>
+                        <img class="img-responsive img-portfolio img-hover" src="resources/Cloud Upload.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <!-- /.row -->
+
+            
         </div>
+        <!-- /.container -->
 
-      </div>
+        <!-- Footer -->
+        <footer class="text-center">
+            <div class="footer-above">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col col-md-4">
+                            <h3>Location</h3>
+                            <p>Somewhere in<br>Northern Virginia</p>
+                        </div>
+                        <div class="footer-col col-md-4">
+                            <h3>Follow Us</h3>
+                            <ul class="list-inline">
+                                <li>
+                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-col col-md-4">
+                            <br /> <br />
+                            <a href = "contact.html"><h3>Support</h3></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-below">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            Copyright &copy; HyerTech 2015
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-    </div>
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
 
-  </body>
-</html>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Script to Activate the Carousel -->
+        <script>
+        $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+        </script>
+
+    </body>
+
+    </html>
