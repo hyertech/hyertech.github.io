@@ -20,6 +20,8 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+    <link href="dist/css/bootstrap-colorpicker.min.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -265,8 +267,17 @@
 </div>
 </div>
 
+<div class="input-group demo2">
+    <input type="text" value="" class="form-control" />
+    <span class="input-group-addon"><i></i></span>
+</div>
+
+
 </div>
 <!-- /.container -->
+
+
+
 
 <!-- Footer -->
 <footer class="text-center">
@@ -317,6 +328,16 @@
 
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
+
+<script src="dist/js/bootstrap-colorpicker.js"></script>
+
+<script>
+    $(function(){
+        $('.demo2').colorpicker();
+    });
+</script>
+
+
 
 </body>
 
